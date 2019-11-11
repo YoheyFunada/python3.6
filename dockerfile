@@ -4,4 +4,5 @@ RUN ls -al
 # ENV APP_ROOT /usr/src/app
 WORKDIR /usr/src/app
 EXPOSE 3000
-RUN echo "gogo!!"
+RUN echo "test" > test.html
+RUN pip install "python-dotenv[cli]"
