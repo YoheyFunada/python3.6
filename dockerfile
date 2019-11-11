@@ -5,7 +5,6 @@ RUN apk add --no-cache gcc libc-dev
 # ENV APP_ROOT /usr/src/app
 WORKDIR /usr/src/app
 EXPOSE 3000
-RUN echo "test" > test.html
 RUN pip install "python-dotenv[cli]"
 RUN pip install httplib2
 RUN pip install sha3
